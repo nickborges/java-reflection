@@ -6,4 +6,4 @@
     * ````getConstructor()```` recupara construtor **público** com ou sem parâmetro, é só informar na chamda.
     * ````getConstructors()```` recuperar todos construtores publicos.
     * ````getDeclaredConstructor()```` recupara construtor **privado** com ou sem parâmetro, é só informar na chamda.
-    * ````getDeclaredConstructors()````` recupera todos construtores públicos e privados.
+    * ````getDeclaredConstructors()```` recupera todos construtores públicos e privados.
