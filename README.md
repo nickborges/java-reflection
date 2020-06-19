@@ -1,5 +1,5 @@
 ## 1.
-* **Class<T>**
+* ** Class<T> **
   * **newInstance()** da classe Class<T> foi descontinuado a partir do JDK 9, pois não verificava Exceptions checked.
   * **Constructor<T>**
     * **newInstance()** da classe Constructor<T> válida Exceptions checked.
