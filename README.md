@@ -12,7 +12,8 @@
   * `getMethods()` recupera todos os métodos **públicos** com ou sem parâmetros incluindo os métodos da classe pai.
   * `getDeclaredMethod(String nomeDoMetodo, Class<?> ...tiposArgs)` recupera método **públicos** ou **privados** com ou sem parâmetros, apenas para o método da própria classe.
   * `getDeclaredMethods()` recupera todos os métodos **públicos** ou **privados** com ou sem parâmetros, apenas para os métodos da própria classe.
-  * `invoke(Object obj, Object... args)` invoca o método do objeto que desejar, o primeiro parâmetro representa a instância do objeto que se quer executar, o segundo parâmetro é um varargs com todos os parâmetros que o método precisa receber. caso o método chamado seja `void` o retorno é `null`;
+   * `Method<T>` é retornado em cada um dos métodos a cima.
+     * `invoke(Object obj, Object... args)` invoca o método do objeto que desejar, o primeiro parâmetro representa a instância do objeto que se quer executar, o segundo parâmetro é um varargs com todos os parâmetros que o método precisa receber. caso o método chamado seja `void` o retorno é `null`;
   
   
  
